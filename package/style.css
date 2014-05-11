@@ -1,0 +1,19 @@
+.box-a-header,
+.page-tickets,
+.ticket-actions,
+.ticket-reply-form,
+#groove-feedback,
+.clear-header {
+    display: none !important;
+}
+
+#ticket-inspector {
+    padding-left: 0 !important;
+}
+
+.box-b-sidebar-right {
+    top: 0 !important;
+}
+.box-c-ticket-show {
+    margin-top: 0 !important;
+}

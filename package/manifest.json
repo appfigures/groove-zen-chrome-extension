@@ -1,0 +1,28 @@
+{
+	"manifest_version": 2,
+	"name": "Groove Zen Mode",
+	"short_name": "Groove Zen",
+	"description": "Simplifies the Groove UI while reading a ticket. Can be toggled on and off in real-time.",
+	"version": "1.0.1",
+	"author": "appFigures Inc.",
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	"icons": {
+		"48": "icon-48.png",
+		"128": "icon-128.png"
+	},
+	"page_action": {
+		"default_icon": "icon-active.png",
+		"default_title": "Turn zen mode on"
+	},
+	"permissions": [
+		"declarativeContent",
+		"activeTab",
+		"tabs"
+	],
+	"web_accessible_resources": [
+		"style.css"
+	]
+}
